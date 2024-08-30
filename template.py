@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 import logging
 
-# print(Path("A\B\c.txt")) --  why we Path
+# print(Path("A\B\c.txt")) --  Path manages all the different type path types
 
 list_of_files=[
     ".github/workflows/.gitkeep",
