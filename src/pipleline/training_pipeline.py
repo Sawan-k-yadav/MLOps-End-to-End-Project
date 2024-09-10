@@ -46,3 +46,13 @@ class TrainingPipeline:
             self.start_model_training(train_arr,test_arr)
         except Exception as e:
             raise customException(e,sys)
+        
+
+
+# if __name__=="__main__":
+#     obj=TrainingPipeline()
+
+#     obj.start_data_ingestion()
+#     obj.start_data_transformation(train_data_path,test_data_path)
+#     obj.start_model_training()
+#     obj.start_trainig()
